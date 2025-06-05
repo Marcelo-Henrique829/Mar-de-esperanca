@@ -3,26 +3,15 @@
 function scr_direction(){
 	
 
-	var _esquerda=	global.left
-	var _direita=	global.right
-	var _cima  =	global.up
-	var _baixo  =	global.down
-	var _ataque =	global.attack
-
-
-	var _esquerda_p = global.left_p
-	var _direita_p = global.right_p
-	var _cima_p =  global.up_p
-	var _baixo_p =  global.down_p
-	
+	var _i = global.inputs
 	
 	
 	//se ele aperta algum botão ele procura a direção do player e põe uma velocidade diferente de 0
-	if(_esquerda or _direita or _cima or _baixo)
+	if(_i.left or _i.right or _i.up or _i.down)
 	{
-		dir = point_direction(0,0,_direita - _esquerda,_baixo - _cima)
+		dir = point_direction(0,0,_i.right - _i.left,_i.down - _i.up)
 		
-		if(global.run)
+		if(_i.run)
 		{
 			spd = lerp(spd,run_def_spd,0.01)
 		}
@@ -33,7 +22,7 @@ function scr_direction(){
 	}
 	else
 	{
-		if(!global.run)
+		if(!_i.run)
 		{
 			spd = 0;
 		}
@@ -41,13 +30,13 @@ function scr_direction(){
 	
 	
 	#region arruma o problema de direção então se ele aperta cima e baixo ele salva a última direção ao inves de ficar 0
-		if (_esquerda_p) last_key = vk_left 
-		if (_direita_p)  last_key = vk_right;
-		if (_cima_p)	 last_key = vk_up;
-		if (_baixo_p)	 last_key = vk_down;
+		if (_i.left_p) last_key = vk_left 
+		if (_i.right_p)  last_key = vk_right;
+		if (_i.up_p)	 last_key = vk_up;
+		if (_i.down_p)	 last_key = vk_down;
 	
 	
-		if(_esquerda and _direita)
+		if(_i.left and _i.right)
 		{
 			if(last_key == vk_right)
 			{
@@ -59,7 +48,7 @@ function scr_direction(){
 			}
 		}
 	
-		if(_baixo and _cima)
+		if(_i.down and _i.up)
 		{
 			vspd = 0
 			if(last_key == vk_up)
