@@ -49,6 +49,7 @@
     {"id":{"name":"scr_inputs","path":"scripts/scr_inputs/scr_inputs.yy",},},
     {"id":{"name":"screen_shake","path":"scripts/screen_shake/screen_shake.yy",},},
     {"id":{"name":"simple_colision","path":"scripts/simple_colision/simple_colision.yy",},},
+    {"id":{"name":"spr_lampada","path":"sprites/spr_lampada/spr_lampada.yy",},},
     {"id":{"name":"spr_luan_back_iddle","path":"sprites/spr_luan_back_iddle/spr_luan_back_iddle.yy",},},
     {"id":{"name":"spr_luan_back_run","path":"sprites/spr_luan_back_run/spr_luan_back_run.yy",},},
     {"id":{"name":"spr_luan_front_iddle","path":"sprites/spr_luan_front_iddle/spr_luan_front_iddle.yy",},},

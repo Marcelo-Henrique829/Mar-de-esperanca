@@ -1,6 +1,6 @@
-resolution_width = 2048 // resolução padrão
+ resolution_width = 2048 // resolução padrão
 resolution_height = 1152 // resolução padrão
-resolution_def_scale = 1//escala da resolução da camera
+resolution_def_scale = 0.9//escala da resolução da camera
 resolution_scale = resolution_def_scale
 global.view_width = resolution_width / resolution_scale; // definindo o tamanho do width da camera
 global.view_height = resolution_height / resolution_scale; //definindo o tamanho do height da camera
