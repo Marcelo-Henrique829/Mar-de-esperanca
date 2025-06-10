@@ -1,0 +1,40 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tl_floor",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[11,19,18,6,14,10,0,5,13,0,12,7,16,15,17,8,],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tl_floor",
+  "out_columns":5,
+  "out_tilehborder":0,
+  "out_tilevborder":0,
+  "parent":{
+    "name":"Conjuntos de tiles",
+    "path":"folders/Conjuntos de tiles.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tile_floor_blue_1",
+    "path":"sprites/spr_tile_floor_blue_1/spr_tile_floor_blue_1.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":256,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":256,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":25,
+}
