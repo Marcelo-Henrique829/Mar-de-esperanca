@@ -6,7 +6,6 @@ scr_screen_shake()
 scr_inputs(inputs_bool)
 
  
- 
 
 
 if(place_meeting(x,y-250,obj_wall))
