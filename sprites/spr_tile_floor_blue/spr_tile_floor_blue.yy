@@ -3,7 +3,7 @@
   "%Name":"spr_tile_floor_blue",
   "bboxMode":0,
   "bbox_bottom":1023,
-  "bbox_left":256,
+  "bbox_left":114,
   "bbox_right":1535,
   "bbox_top":0,
   "collisionKind":1,
