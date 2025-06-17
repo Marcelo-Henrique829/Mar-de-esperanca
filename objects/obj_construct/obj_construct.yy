@@ -8,8 +8,8 @@
   "name":"obj_construct",
   "overriddenProperties":[],
   "parent":{
-    "name":"player",
-    "path":"folders/Objetos/player.yy",
+    "name":"Constructs",
+    "path":"folders/Objetos/Constructs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

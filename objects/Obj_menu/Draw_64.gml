@@ -19,10 +19,11 @@ var y1 = gui_vert / 2;  // posição vertical central
 for (var i = 0; i < op_max; i++) {
 	
 	draw_set_halign(fa_center);
-	draw_set_valign(fa_center);
+	draw_set_valign(fa_middle);
 	
 	// Verifica se a opção está selecionada ou o mouse está sobre ela
-	if (index == i || point_in_rectangle(mx, my, x1 - dist/2, y1 - dist/2 + dist * i, x1 + dist/2, y1 + dist/2 + dist * i)) {
+	if (index == i || point_in_rectangle(mx, my, x1 - dist/2, y1 - dist/2 + dist * i, x1 + dist/2, y1 + dist/2 + dist * i))
+	{
 		
 		draw_set_color(c_yellow);
 		esc[i] = lerp(esc[i], 1.4, 0.15); // aumenta o tamanho
