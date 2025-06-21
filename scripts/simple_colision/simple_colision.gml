@@ -2,8 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_colision(_colisores = []){
 	
-	show_debug_overlay(1)
-	
 	var _hspd = sign(hspd)
 	var _vspd = sign(vspd)
 	
