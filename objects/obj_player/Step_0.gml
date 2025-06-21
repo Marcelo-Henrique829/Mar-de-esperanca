@@ -16,7 +16,7 @@ switch(state)
 	
 		default :
 		{
-			state = "iddle"
+			state = "iddle";
 		}
 		break;
 		
@@ -24,11 +24,11 @@ switch(state)
 		{
 			
 			
-			scr_direction()
-			scr_anim_direction()
+			scr_direction();
+			scr_anim_direction();
 		
-			vspd = lengthdir_y(spd,dir)
-			hspd = lengthdir_x(spd,dir)
+			vspd = lengthdir_y(spd,dir);
+			hspd = lengthdir_x(spd,dir);
 		
 		
 		}
@@ -43,5 +43,4 @@ switch(state)
 
 
 
-
-
+ 
