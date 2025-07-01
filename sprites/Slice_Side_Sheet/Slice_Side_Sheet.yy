@@ -33,7 +33,7 @@
   "origin":0,
   "parent":{
     "name":"character_test",
-    "path":"folders/Sprites/character_test.yy",
+    "path":"folders/Sprites/Place_holder/character_test.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

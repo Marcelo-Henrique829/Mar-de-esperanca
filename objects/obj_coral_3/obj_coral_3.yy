@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_coral_2",
-    "path":"sprites/spr_coral_2/spr_coral_2.yy",
+    "name":"spr_coral_6",
+    "path":"sprites/spr_coral_6/spr_coral_6.yy",
   },
   "spriteMaskId":null,
   "visible":true,

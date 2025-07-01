@@ -4,17 +4,20 @@
 //image_xscale = 0.15
 //image_yscale = 0.15
 
+
 state = "iddle";
 
 #region movimentação
 	hspd = 0;
 	vspd = 0;
 	spd = 0;
+	def_spd = 40;
+	
+	
+	
 	dir = 0;
 	dir_state = "none";
-	def_spd = 40;
 	last = vk_nokey;
-	inputs_bool = 1;
 	
 #endregion
 
@@ -48,7 +51,7 @@ depth_layer = function()
 
 	}
 
-	show_debug_message(depth)
+
 }
 
 global.tl_cercas = layer_tilemap_get_id("Tile_fence");

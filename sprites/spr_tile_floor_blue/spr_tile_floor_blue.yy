@@ -9,15 +9,15 @@
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
-  "edgeFiltering":false,
-  "For3D":false,
+  "edgeFiltering":true,
+  "For3D":true,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"b0e3c5f6-d085-4b8a-8a7f-8f9fdcb903df","name":"b0e3c5f6-d085-4b8a-8a7f-8f9fdcb903df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":256,
   "gridY":256,
   "height":1126,
-  "HTile":false,
+  "HTile":true,
   "layers":[
     {"$GMImageLayer":"","%Name":"5af03af0-0f05-4e2b-af2c-46702415e1c2","blendMode":0,"displayName":"default","isLocked":false,"name":"5af03af0-0f05-4e2b-af2c-46702415e1c2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
@@ -28,7 +28,7 @@
     "name":"tile",
     "path":"folders/Sprites/tile.yy",
   },
-  "preMultiplyAlpha":false,
+  "preMultiplyAlpha":true,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
@@ -87,6 +87,6 @@
     "path":"texturegroups/Default",
   },
   "type":0,
-  "VTile":false,
+  "VTile":true,
   "width":1690,
 }
