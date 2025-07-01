@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"corais",
-    "path":"folders/Sprites/tile/corais.yy",
+    "name":"tile",
+    "path":"folders/Sprites/tile.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
