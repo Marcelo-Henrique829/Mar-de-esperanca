@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tl_objects",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tl_objects",
+  "out_columns":26,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"place_holder",
+    "path":"folders/Conjuntos de tiles/place_holder.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tile_objetos_avulsos",
+    "path":"sprites/spr_tile_objetos_avulsos/spr_tile_objetos_avulsos.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":95,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":95,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":676,
+}

@@ -10,8 +10,8 @@
   "name":"obj_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"test",
-    "path":"folders/Objetos/test.yy",
+    "name":"Constructs",
+    "path":"folders/Objetos/Constructs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"destine","filters":[],"listItems":[],"multiselect":false,"name":"destine","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"def_pos","filters":[],"listItems":[],"multiselect":false,"name":"def_pos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"400","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

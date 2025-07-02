@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tl_wall",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tl_wall",
+  "out_columns":47,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"place_holder",
+    "path":"folders/Conjuntos de tiles/place_holder.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tile_base",
+    "path":"sprites/spr_tile_base/spr_tile_base.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":95,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":95,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":2209,
+}

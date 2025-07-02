@@ -37,21 +37,6 @@ state = "iddle";
 	run_spd = spd;
 #endregion
 
-depth_layer = function()
-{
-	if(place_meeting(x,y-250,obj_wall))
-	{
-			depth = -999999 //UM VALOR ABSURDO PARA GARANTIR QUE VAI FICAR NA FRENTE
 
-
-	}
-	else
-	{
-			depth =  -y;
-
-	}
-
-
-}
-
-global.tl_cercas = layer_tilemap_get_id("Tile_fence");
+global.tl_wall = layer_tilemap_get_id("Tile_wall");
+global.tl_objects = layer_tilemap_get_id("Tile_objects");
