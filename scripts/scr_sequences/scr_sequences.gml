@@ -14,7 +14,23 @@ function scr_transition_fade_in() // ao fade in chegar ao final ele te manda par
 	global.destine = noone
 }
 
+function scr_fade_in()
+{
 
+	global.pause = 0;
+	global.destine = destine
+	var _cm_x = camera_get_view_x(view_camera[0])
+	var _cm_y = camera_get_view_y(view_camera[0]) 
+	
+	if(!layer_exists("inst_transition"))
+	{
+		layer_create(-9999,"inst_transition")
+	}
+	
+	
+	layer_sequence_create("inst_transition",_cm_x,_cm_y,sq_fade_in)
+
+}
 
 
 function scr_logo(){

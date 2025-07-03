@@ -10,6 +10,11 @@ _camera.x = x
 _camera.y = y
 
 
+with(all)
+{
+	if(!on_ui_layer) depth = - bbox_bottom
+}
+
 
 switch(state)
 {
@@ -37,6 +42,11 @@ switch(state)
 
 }
 
+
+if(window_get_width() != winw or window_get_height() != winh)
+{
+	display_set_gui_maximize();
+}
 
 
 

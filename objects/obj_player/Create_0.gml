@@ -37,6 +37,9 @@ state = "iddle";
 	run_spd = spd;
 #endregion
 
+winh = window_get_height()
+winw = window_get_width()
+
 
 global.tl_wall = layer_tilemap_get_id("Tile_wall");
 global.tl_objects = layer_tilemap_get_id("Tile_objects");

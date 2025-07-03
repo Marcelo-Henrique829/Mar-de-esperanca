@@ -12,7 +12,8 @@ global.inputs = {
 	dash: false,       // Tecla "Espaço" pressionada
 	run: false,        // Tecla "Shift" segurada
 	aim: false,        // Tecla "Control" OU botão direito do mouse
-	enter: false,        // Tecla "enter" OU botão esquerdo do mouse
+	enter: false,      // Tecla "enter" OU botão esquerdo do mouse
+	esc: false,
 	
 	
 	// "_p" indica que a tecla foi pressionada neste frame (press)
@@ -40,6 +41,7 @@ function scr_inputs(_bool) {
 	_i.run    = keyboard_check(vk_shift);         // correr com Shift
 	_i.aim    = keyboard_check(vk_control) ||  mouse_check_button(mb_right); // mirar com Ctrl ou botão direito do mouse
 	_i.enter    = keyboard_check_pressed(vk_enter) ||  mouse_check_button_pressed(mb_left); // botões para interagir
+	_i.esc = keyboard_check_pressed(vk_escape)
 
 	// Direcionais pressionadas neste frame
 	_i.left_p  = keyboard_check_pressed(ord("A"));
