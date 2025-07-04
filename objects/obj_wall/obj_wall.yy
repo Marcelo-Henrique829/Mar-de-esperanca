@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"obj_wall",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"test",
-    "path":"folders/Objetos/test.yy",
+    "name":"Constructs",
+    "path":"folders/Objetos/Constructs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

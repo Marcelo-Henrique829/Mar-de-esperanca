@@ -1,19 +1,17 @@
-  /// @description Insert description here
+   /// @description Insert description here
 // You can write your code in this editor
 
 
 var _i = global.inputs
 
 var _camera = Obj_camera
-
 _camera.x = x
 _camera.y = y
 
-
-with(all)
-{
-	if(!on_ui_layer) depth = - bbox_bottom
-}
+//with(all)
+//{
+//	if(!on_ui_layer) depth = - bbox_bottom
+//}
 
 
 switch(state)
