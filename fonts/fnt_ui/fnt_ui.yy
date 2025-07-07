@@ -137,7 +137,7 @@
   "name":"fnt_ui",
   "parent":{
     "name":"Fonts",
-    "path":"folders/Fonts.yy",
+    "path":"folders/Fontes/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[
@@ -151,7 +151,10 @@
   "sdfSpread":8,
   "size":24.0,
   "styleName":"Strict",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":"",
   "usesSDF":false,
 }

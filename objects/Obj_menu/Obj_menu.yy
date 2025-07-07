@@ -10,8 +10,8 @@
   "name":"Obj_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Place_holder",
+    "path":"folders/Objetos/Place_holder.yy",
   },
   "parentObjectId":null,
   "persistent":false,

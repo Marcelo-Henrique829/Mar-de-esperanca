@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"button",
-    "path":"folders/Objetos/button.yy",
+    "path":"folders/Objetos/Control/button.yy",
   },
   "parentObjectId":null,
   "persistent":false,

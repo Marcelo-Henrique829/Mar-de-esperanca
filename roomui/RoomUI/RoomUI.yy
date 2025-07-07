@@ -17,7 +17,7 @@
               ],"flexDirection":0,"height":{"unit":2,"value":80.0,},"justifyContent":1,"name":"Buttons","nodeColour":4282930418,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":80.0,},},
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_2D367756","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2D367756","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_ui_box","path":"sprites/spr_ui_box/spr_ui_box.yy",},"x":0.0,"y":0.0,},
           ],"flexDirection":0,"height":{"unit":1,"value":700.0,},"justifyContent":1,"name":"pause_panel","nodeColour":4289743090,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":500.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"Pause_layer","nodeColour":4282938866,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"Pause_layer","nodeColour":4282938866,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
   ],
   "locked":false,
   "name":"RoomUI",

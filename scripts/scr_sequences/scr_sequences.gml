@@ -20,7 +20,7 @@ function scr_fade_in()
 	global.pause = 0;
 	global.destine = destine
 	var _cm_x = camera_get_view_x(view_camera[0])
-	var _cm_y = camera_get_view_y(view_camera[0]) 
+	var _cm_y = camera_get_view_y(view_camera[0])
 	
 	if(!layer_exists("inst_transition"))
 	{

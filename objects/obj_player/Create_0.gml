@@ -20,8 +20,7 @@ state = "iddle";
 	last = vk_nokey;
 	
 #endregion
-
-#region dash state
+ #region dash state
 	dash_def_spd = 10;
 	dash_spd = 0;
 

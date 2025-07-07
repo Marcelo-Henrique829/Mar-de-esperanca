@@ -1,4 +1,4 @@
-var i = global.inputs;
+ var i = global.inputs;
 scr_inputs(1)
 
 // Verifica se o ENTER foi pressionado

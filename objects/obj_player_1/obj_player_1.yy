@@ -11,8 +11,8 @@
   "name":"obj_player_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"test",
-    "path":"folders/Objetos/test.yy",
+    "name":"Place_holder",
+    "path":"folders/Objetos/Place_holder.yy",
   },
   "parentObjectId":null,
   "persistent":false,

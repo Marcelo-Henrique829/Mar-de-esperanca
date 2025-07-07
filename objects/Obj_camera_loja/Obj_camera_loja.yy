@@ -10,8 +10,8 @@
   "name":"Obj_camera_loja",
   "overriddenProperties":[],
   "parent":{
-    "name":"player",
-    "path":"folders/Objetos/player.yy",
+    "name":"Control",
+    "path":"folders/Objetos/Control.yy",
   },
   "parentObjectId":null,
   "persistent":false,
