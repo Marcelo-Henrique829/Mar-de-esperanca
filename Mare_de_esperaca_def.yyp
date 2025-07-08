@@ -60,6 +60,7 @@
   "resources":[
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"obj_button_1","path":"objects/obj_button_1/obj_button_1.yy",},},
     {"id":{"name":"obj_button_close","path":"objects/obj_button_close/obj_button_close.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"Obj_camera_loja","path":"objects/Obj_camera_loja/Obj_camera_loja.yy",},},
@@ -139,6 +140,7 @@
     {"id":{"name":"spr_coral_6","path":"sprites/spr_coral_6/spr_coral_6.yy",},},
     {"id":{"name":"spr_coral_7","path":"sprites/spr_coral_7/spr_coral_7.yy",},},
     {"id":{"name":"spr_coral_8","path":"sprites/spr_coral_8/spr_coral_8.yy",},},
+    {"id":{"name":"spr_coral_9","path":"sprites/spr_coral_9/spr_coral_9.yy",},},
     {"id":{"name":"spr_creditos","path":"sprites/spr_creditos/spr_creditos.yy",},},
     {"id":{"name":"spr_dorr","path":"sprites/spr_dorr/spr_dorr.yy",},},
     {"id":{"name":"spr_enter","path":"sprites/spr_enter/spr_enter.yy",},},
@@ -190,6 +192,7 @@
     {"id":{"name":"spr_ui_icon1","path":"sprites/spr_ui_icon1/spr_ui_icon1.yy",},},
     {"id":{"name":"spr_ui_icon2","path":"sprites/spr_ui_icon2/spr_ui_icon2.yy",},},
     {"id":{"name":"spr_ui_icon3","path":"sprites/spr_ui_icon3/spr_ui_icon3.yy",},},
+    {"id":{"name":"spr_ui_text_box_1","path":"sprites/spr_ui_text_box_1/spr_ui_text_box_1.yy",},},
     {"id":{"name":"spr_ui_text_box","path":"sprites/spr_ui_text_box/spr_ui_text_box.yy",},},
     {"id":{"name":"spr_UI","path":"sprites/spr_UI/spr_UI.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
