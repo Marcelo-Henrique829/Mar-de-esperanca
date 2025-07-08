@@ -34,7 +34,7 @@
   "origin":7,
   "parent":{
     "name":"arma",
-    "path":"folders/Sprites/Player/arma.yy",
+    "path":"folders/Sprites/Place_holder/arma.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
