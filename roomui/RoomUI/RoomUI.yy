@@ -2,6 +2,25 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
+    {"$GMRUILayer":"v1","%Name":"shop_layer","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"shop_layer","alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"text","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"FlexPanel_1","alignItems":2,"children":[
+                    {"$GMRSpriteGraphic":"v1","%Name":"graphic_46A3A8AD","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_46A3A8AD","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2916666,"scaleY":0.59166664,"spriteId":{"name":"spr_ui_text_box","path":"sprites/spr_ui_text_box/spr_ui_text_box.yy",},"x":-249.0,"y":129.1673,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":240.0,},"justifyContent":1,"name":"FlexPanel_1","nodeColour":4293478642,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":240.0,},},
+              ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"text","nodeColour":4283779314,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+            {"$GMRFlexPanel":"","%Name":"Asset","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"Asset","nodeColour":4294068383,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+            {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[
+                {"$GMRSpriteGraphic":"v1","%Name":"graphic_5C27C784","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5C27C784","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6743494,"scaleY":0.6743494,"spriteId":{"name":"spr_potion","path":"sprites/spr_potion/spr_potion.yy",},"x":-346.28253,"y":0.1673088,},
+              ],"flexDirection":0,"height":{"unit":3,"value":130.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4285395528,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":100.0,},},
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_51686946","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_51686946","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_UI_1","path":"sprites/spr_UI_1/spr_UI_1.yy",},"x":0.0,"y":0.0,},
+            {"$GMRFlexPanel":"","%Name":"buttons","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"Close_button","alignItems":2,"children":[
+                    {"$GMRSpriteGraphic":"v1","%Name":"graphic_236382A8","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_236382A8","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_UI_close","path":"sprites/spr_UI_close/spr_UI_close.yy",},"x":-363.0,"y":-284.0,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":60.0,},"justifyContent":1,"name":"Close_button","nodeColour":4282962162,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":60.0,},},
+              ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"buttons","nodeColour":4294107720,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+          ],"flexDirection":0,"height":{"unit":1,"value":700.0,},"justifyContent":1,"name":"shop_layer","nodeColour":4289743090,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":900.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"shop_layer","nodeColour":4282970751,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
     {"$GMRUILayer":"v1","%Name":"Pause_layer","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"pause_panel","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"Buttons","alignItems":2,"children":[
