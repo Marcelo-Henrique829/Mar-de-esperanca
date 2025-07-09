@@ -10,8 +10,8 @@
   "name":"obj_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Constructs",
-    "path":"folders/Objetos/Constructs.yy",
+    "name":"Control",
+    "path":"folders/Objetos/Control.yy",
   },
   "parentObjectId":null,
   "persistent":false,

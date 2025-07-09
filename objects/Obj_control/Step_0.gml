@@ -1,9 +1,4 @@
 
 update_pause()
+update_shop()
 
-
-if(global.pause == 0  and global.shop==0)
-{
-	instance_activate_all()
-	
-}

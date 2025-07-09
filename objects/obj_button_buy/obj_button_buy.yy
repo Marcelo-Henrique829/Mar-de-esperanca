@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_1",
+  "%Name":"obj_button_buy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,11 +9,11 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_1",
+  "name":"obj_button_buy",
   "overriddenProperties":[],
   "parent":{
     "name":"button",
-    "path":"folders/Objetos/Control/button.yy",
+    "path":"folders/Objetos/Control/UI/button.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"txt","filters":[],"listItems":[],"multiselect":false,"name":"txt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Noone","varType":2,},
-    {"$GMObjectProperty":"v1","%Name":"destine","filters":[],"listItems":[],"multiselect":false,"name":"destine","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"txt","filters":[],"listItems":[],"multiselect":false,"name":"txt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"str","filters":[],"listItems":[],"multiselect":false,"name":"str","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

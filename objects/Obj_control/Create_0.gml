@@ -1,7 +1,6 @@
-global.pause = false;
-global.shop = 0;
+
 layer_pause = "Pause_layer";
-layer_shop = "Shop_layer";
+layer_shop = "shop_layer";
 
 
 
@@ -18,10 +17,20 @@ update_pause = function()
 	}
 	else
 	{
+		instance_activate_all()
 		layer_set_visible(layer_pause,0)	
 	}
 	
 }	
 
 
+
+update_shop = function()
+{
+	layer_set_visible(layer_shop,global.shop)
+	if(room != rm_loja_2) global.shop = 0
+
+}
+
+update_shop();
 update_pause();

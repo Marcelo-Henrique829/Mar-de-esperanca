@@ -8,6 +8,16 @@
   "instanceCreationOrder":[
     {"name":"inst_67E7F9AA","path":"rooms/rm_loja_2/rm_loja_2.yy",},
     {"name":"inst_3C851761","path":"rooms/rm_loja_2/rm_loja_2.yy",},
+    {"name":"inst_6FFFA680","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_221F8DBE","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_7A49CC6B","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_409B31FF","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_7253E2B9","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_3BB0EE34","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_6CD2E276","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_44E92301","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_3727FA6A","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_3136276B","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

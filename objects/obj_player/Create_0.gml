@@ -4,6 +4,7 @@
 //image_xscale = 0.15
 //image_yscale = 0.15
 
+if(!instance_exists(Obj_control)) instance_create_layer(x,y,layer,Obj_control)
 
 state = "iddle";
 
