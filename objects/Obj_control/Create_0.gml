@@ -3,6 +3,7 @@ layer_pause = "Pause_layer";
 layer_shop = "shop_layer";
 
 
+ 
 
 update_pause = function()
 {
@@ -22,7 +23,6 @@ update_pause = function()
 	}
 	
 }	
-
 
 
 update_shop = function()

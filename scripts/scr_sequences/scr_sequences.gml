@@ -6,6 +6,7 @@ global.transition = 0;
 
 function scr_end_sequence(){ //ao acabar a sequence destroi a mesma.
 	layer_sequence_destroy(global.transition);
+	global.transition = noone
 }
 
 function scr_transition_fade_in() // ao fade in chegar ao final ele te manda para a room desejada
@@ -29,6 +30,23 @@ function scr_fade_in()
 	
 	
 	layer_sequence_create("inst_transition",_cm_x,_cm_y,sq_fade_in)
+
+}
+function scr_fade_out()
+{
+
+	global.pause = 0;
+	global.transition = sq_fade_out
+	var _cm_x = camera_get_view_x(view_camera[0]) + camera_get_view_x(view_camera[0])/2
+	var _cm_y = camera_get_view_y(view_camera[0])
+	
+	if(!layer_exists("inst_transition"))
+	{
+		layer_create(-9999,"inst_transition")
+	}
+	
+	
+	layer_sequence_create("inst_transition",_cm_x,_cm_y,sq_fade_out)
 
 }
 

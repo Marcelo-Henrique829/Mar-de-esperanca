@@ -42,7 +42,7 @@
                       ],"flexDirection":0,"height":{"unit":2,"value":100.0,},"justifyContent":1,"name":"string","nodeColour":4282970780,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":20.0,},},
                   ],"flexDirection":2,"height":{"unit":2,"value":100.0,},"justifyContent":2,"name":"coin","nodeColour":4294068319,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":40.0,},},
               ],"flexDirection":2,"height":{"unit":2,"value":10.0,},"justifyContent":3,"marginBottom":{"unit":1,"value":30.0,},"marginTop":{"unit":1,"value":30.0,},"name":"nav_bar","nodeColour":4293937394,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":95.0,},},
-            {"$GMRFlexPanel":"","%Name":"potions","alignItems":2,"alignSelf":1,"children":[
+            {"$GMRFlexPanel":"","%Name":"potions","alignContent":8,"alignItems":2,"alignSelf":1,"children":[
                 {"$GMRFlexPanel":"","%Name":"potion_1","alignContent":2,"alignItems":2,"alignSelf":1,"children":[
                     {"$GMRFlexPanel":"","%Name":"potion_asst","alignContent":3,"alignItems":2,"children":[
                         {"$GMRSpriteGraphic":"v1","%Name":"graphic_5C27C784","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5C27C784","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"spriteId":{"name":"spr_potion","path":"sprites/spr_potion/spr_potion.yy",},"x":0.0,"y":0.0,},
@@ -123,7 +123,7 @@
               ],"flexDirection":0,"height":{"unit":2,"value":90.0,},"justifyContent":0,"name":"potions","nodeColour":4294068434,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":80.0,},},
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_5E99FB23","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5E99FB23","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_ui_text_box","path":"sprites/spr_ui_text_box/spr_ui_text_box.yy",},"x":0.0,"y":0.0,},
           ],"flexDirection":0,"height":{"unit":2,"value":85.0,},"justifyContent":1,"marginLeft":{"unit":1,"value":100.0,},"name":"potion_layer","nodeColour":4282933234,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":15.62,},},
-      ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":1,"name":"shop_layer","nodeColour":4294107976,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":1,"name":"shop_layer","nodeColour":4294107976,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
   ],
   "locked":false,
   "name":"RoomUI",
