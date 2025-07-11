@@ -42,7 +42,7 @@ function scr_fade_out()
 	
 	if(!layer_exists("inst_transition"))
 	{
-		layer_create(-9999,"inst_transition")
+		layer_create(-999999,"inst_transition")
 	}
 	
 	

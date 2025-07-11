@@ -1,13 +1,13 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_loja_2",
-  "creationCodeFile":"rooms/rm_loja_2/RoomCreationCode.gml",
+  "%Name":"rm_loja_menu",
+  "creationCodeFile":"rooms/rm_loja_menu/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_67E7F9AA","path":"rooms/rm_loja_2/rm_loja_2.yy",},
-    {"name":"inst_3C851761","path":"rooms/rm_loja_2/rm_loja_2.yy",},
+    {"name":"inst_67E7F9AA","path":"rooms/rm_loja_menu/rm_loja_menu.yy",},
+    {"name":"inst_3C851761","path":"rooms/rm_loja_menu/rm_loja_menu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -19,7 +19,7 @@
     {"$GMRAssetLayer":"","%Name":"Asset","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Asset","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_shop_potion_","path":"sprites/spr_shop_potion_/spr_shop_potion_.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_loja_2",
+  "name":"rm_loja_menu",
   "parent":{
     "name":"Cenas",
     "path":"folders/Cenas.yy",

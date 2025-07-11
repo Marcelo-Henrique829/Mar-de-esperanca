@@ -28,7 +28,7 @@ update_pause = function()
 update_shop = function()
 {
 	layer_set_visible(layer_shop,global.shop)
-	if(room != rm_loja_2) global.shop = 0
+	if(room != rm_loja_menu) global.shop = 0
 
 }
 
