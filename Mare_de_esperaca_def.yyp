@@ -128,6 +128,7 @@
     {"id":{"name":"Slice_Side_left_Sheet","path":"sprites/Slice_Side_left_Sheet/Slice_Side_left_Sheet.yy",},},
     {"id":{"name":"Slice_Side_Sheet","path":"sprites/Slice_Side_Sheet/Slice_Side_Sheet.yy",},},
     {"id":{"name":"Slice_Up_Sheet","path":"sprites/Slice_Up_Sheet/Slice_Up_Sheet.yy",},},
+    {"id":{"name":"spr_bg_mapa_rota","path":"sprites/spr_bg_mapa_rota/spr_bg_mapa_rota.yy",},},
     {"id":{"name":"spr_black","path":"sprites/spr_black/spr_black.yy",},},
     {"id":{"name":"spr_bubles","path":"sprites/spr_bubles/spr_bubles.yy",},},
     {"id":{"name":"spr_capa_1","path":"sprites/spr_capa_1/spr_capa_1.yy",},},

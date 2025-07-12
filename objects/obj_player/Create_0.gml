@@ -4,10 +4,31 @@
 //image_xscale = 0.15
 //image_yscale = 0.15
 
+switch(room)
+{
+	case rm_test :
+	{
+		if(global.room_position.rm_test.X!=false or global.room_position.rm_test.Y!=false)
+		{
+			x = global.room_position.rm_test.X 
+			y = global.room_position.rm_test.Y +10
+		}
+		
+	}
+	break;
+	case rm_loja_entrada :
+	{
+		if(global.room_position.rm_loja_entrada.X!=false or global.room_position.rm_loja_entrada.Y!=false)
+		{
+			x = global.room_position.rm_loja_entrada.X 
+			y = global.room_position.rm_loja_entrada.Y
+		}
+		
+	}
+	break;
+}
+
 if(!instance_exists(Obj_control)) instance_create_layer(x,y,layer,Obj_control)
-
-state = "iddle";
-
 #region movimentação
 	hspd = 0;
 	vspd = 0;
@@ -21,25 +42,8 @@ state = "iddle";
 	last = vk_nokey;
 	
 #endregion
- #region dash state
-	dash_def_spd = 10;
-	dash_spd = 0;
-
-	dashing_def_time = 17;
-	dashing_time = dashing_def_time;
-
-	dash_def_cooldown = 60;
-	dash_cooldown = 0;
-#endregion
-
-#region run state
-	run_def_spd = def_spd * 2;
-	run_spd = spd;
-#endregion
-
-winh = window_get_height()
-winw = window_get_width()
 
 
+state = "iddle";
 global.tl_wall = layer_tilemap_get_id("Tile_wall");
 global.tl_objects = layer_tilemap_get_id("Tile_objects");

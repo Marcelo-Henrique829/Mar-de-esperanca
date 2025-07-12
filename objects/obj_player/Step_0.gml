@@ -8,12 +8,6 @@ var _camera = Obj_camera
 _camera.x = x
 _camera.y = y
 
-//with(all)
-//{
-//	if(!on_ui_layer) depth = - bbox_bottom
-//}
-
-
 switch(state)
 {
 	
@@ -25,8 +19,6 @@ switch(state)
 		
  		case "iddle" :
 		{
-			
-			
 			scr_direction();
 			scr_anim_direction();
 		
@@ -41,14 +33,8 @@ switch(state)
 }
 
 
-if(window_get_width() != winw or window_get_height() != winh)
-{
-	display_set_gui_maximize();
-}
+show_debug_message(y)
 
-
-
-
-
+show_debug_message(global.room_position.rm_loja_entrada.Y)
 
  

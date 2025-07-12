@@ -1,10 +1,7 @@
 
 layer_pause = "Pause_layer";
 layer_shop = "shop_layer";
-
-
  
-
 update_pause = function()
 {
 	scr_inputs(1)
@@ -23,8 +20,6 @@ update_pause = function()
 	}
 	
 }	
-
-
 update_shop = function()
 {
 	layer_set_visible(layer_shop,global.shop)
@@ -34,3 +29,4 @@ update_shop = function()
 
 update_shop();
 update_pause();
+             
