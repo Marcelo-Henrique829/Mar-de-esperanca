@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_coral_7",
+  "%Name":"obj_trash",
   "eventList":[],
   "managed":true,
-  "name":"obj_coral_7",
+  "name":"obj_trash",
   "overriddenProperties":[],
   "parent":{
-    "name":"corais",
-    "path":"folders/Objetos/Constructs/corais.yy",
+    "name":"objects",
+    "path":"folders/Objetos/Constructs/objects.yy",
   },
   "parentObjectId":{
     "name":"obj_construct",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_coral_7",
-    "path":"sprites/spr_coral_7/spr_coral_7.yy",
+    "name":"spr_trash",
+    "path":"sprites/spr_trash/spr_trash.yy",
   },
   "spriteMaskId":null,
   "visible":true,

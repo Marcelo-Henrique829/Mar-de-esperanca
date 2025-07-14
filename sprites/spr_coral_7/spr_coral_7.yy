@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"tile",
-    "path":"folders/Sprites/tile.yy",
+    "name":"objetos",
+    "path":"folders/Sprites/tile/objetos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
