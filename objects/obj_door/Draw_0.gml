@@ -1,5 +1,6 @@
 
+if(x_pos>0 or y_pos>0) draw_sprite_ext(spr_enter, 0, x+x_pos, y+y_pos,
+frac(abs(x_pos)/abs(x_def)), frac(abs(y_pos)/abs(y_def)), 0, c_white,1)
 
-if(pos>0) draw_sprite_ext(spr_enter,0,x,y-pos,frac(pos/def_pos),frac(pos/def_pos),0,c_white,frac(pos/def_pos )-0.2)
 
-
+     

@@ -1,8 +1,11 @@
 
 
 
- pos = 0
- player_room_position = function() //posição do player relativo a sala
+
+global.input_side = 0
+x_pos = 1
+y_pos = 1 
+ room_position = function() //posição do player relativo a sala
  {
 	switch(room)
 	{

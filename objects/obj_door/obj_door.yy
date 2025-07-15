@@ -29,14 +29,15 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"destine","filters":[],"listItems":[],"multiselect":false,"name":"destine","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"def_pos","filters":[],"listItems":[],"multiselect":false,"name":"def_pos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"400","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"x_def","filters":[],"listItems":[],"multiselect":false,"name":"x_def","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"y_def","filters":[],"listItems":[],"multiselect":false,"name":"y_def","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dorr",
-    "path":"sprites/spr_dorr/spr_dorr.yy",
+    "name":"spr_seta",
+    "path":"sprites/spr_seta/spr_seta.yy",
   },
   "spriteMaskId":null,
   "visible":true,
