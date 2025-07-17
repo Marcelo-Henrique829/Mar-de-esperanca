@@ -20,21 +20,25 @@ update_pause = function()
 	}
 	
 }	
+
 update_shop = function()
 {
-	layer_set_visible(layer_shop,global.shop)
-    
-	if(room != rm_loja_menu)
+    if(room!=rm_loja_menu)
     {
         global.shop = 0
-        instance_activate_all()
+    } 
+    
+	if(global.shop)
+    {
+        layer_set_visible(layer_shop,1);
     } 
     else {
-    	instance_deactivate_all(1)
+        layer_set_visible(layer_shop,0);
     }
         
 
 }
+
 
 update_shop();
 update_pause();

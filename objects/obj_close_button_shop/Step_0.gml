@@ -8,7 +8,11 @@ if(enter)
 	if(mouse_check_button_pressed(mb_left))
 	{
 		global.shop = 0
-		scr_fade_in()
+        
+		room_goto(rm_loja_entrada)
+        global.room_position.rm_loja_entrada.X = 1500
+        global.room_position.rm_loja_entrada.Y = 1504+400
+        
 		
 	}
 		

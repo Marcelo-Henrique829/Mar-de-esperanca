@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_seta",
   "bboxMode":0,
-  "bbox_bottom":171,
+  "bbox_bottom":170,
   "bbox_left":0,
   "bbox_right":239,
   "bbox_top":0,
