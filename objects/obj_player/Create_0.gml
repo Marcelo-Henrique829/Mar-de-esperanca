@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//image_xscale = 0.15
-//image_yscale = 0.15
 
 switch(room)
 {
@@ -47,3 +45,19 @@ if(!instance_exists(Obj_control)) instance_create_layer(x,y,layer,Obj_control)
 state = "iddle";
 global.tl_wall = layer_tilemap_get_id("Tile_wall");
 global.tl_objects = layer_tilemap_get_id("Tile_objects");
+
+
+
+switch_room = function()
+{
+    var _target = instance_place(x,y,obj_room_switch)
+    if(_target!=noone)
+    {
+        room_goto(_target.target_room)
+        x = _target.target_x
+        y = _target.target_y
+    
+    }
+    
+}
+

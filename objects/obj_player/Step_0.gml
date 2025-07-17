@@ -1,12 +1,21 @@
    /// @description Insert description here
 // You can write your code in this editor
 
+#region variáveis temporárias
 
-var _i = global.inputs
+    var _i = global.inputs
+    
 
-var _camera = Obj_camera
-_camera.x = x
-_camera.y = y
+if(instance_exists(Obj_camera)){
+    
+    var _camera = Obj_camera
+    _camera.x = x
+    _camera.y = y
+
+}
+    
+#endregion
+
 
 switch(state)
 {
@@ -33,8 +42,10 @@ switch(state)
 }
 
 
-show_debug_message(y)
 
-show_debug_message(global.room_position.rm_loja_entrada.Y)
+
+
+
+switch_room()
 
  
