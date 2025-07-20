@@ -1,7 +1,7 @@
 
 
-resolution_scale = resolution_scale
-
+global.view_width = resolution_width / resolution_scale; // definindo o tamanho do width da camera
+global.view_height = resolution_height / resolution_scale; //definindo o tamanho do height da camera
 camera_set_view_size(view_camera[0],global.view_width, global.view_height); //aplicando o tamanho definido para a camera
 surface_resize(application_surface, global.view_width * resolution_scale,global.view_height * resolution_scale) //aplicando a resolução pra superficie do jogo
 
@@ -18,5 +18,14 @@ surface_resize(application_surface, global.view_width * resolution_scale,global.
 		camera_set_view_pos(view_camera[0], lerp(cx, x1, vel_cam) , lerp(cy, y1, vel_cam)); //comando que vai fazer a camera seguir o jogador
 		
 
+resolution_scale = lerp(resolution_scale,resolution_def_scale,0.1)
 
 
+if(keyboard_check(vk_control))
+{
+    var _mouse_dir = point_direction(obj_player_1.x,obj_player_1.y
+    ,mouse_x,mouse_y)
+    
+    x = lengthdir_x(100,_mouse_dir)
+    y = lengthdir_y(100,_mouse_dir)
+}

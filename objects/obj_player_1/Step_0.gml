@@ -30,15 +30,18 @@ switch(state)
 		{
 			scr_direction();
             if(hspd!=0 or vspd!=0)
-            {
-                sprite_index = spr_char_walk
+            {    
+                if(hspd>0) sprite_index = spr_char_walk
+                else sprite_index = spr_char_walk_left 
+                    
             }
             else {
             	sprite_index = spr_char_iddle
             }
             
             
-            if(hspd!=0) image_xscale = sign(hspd)
+           
+                
             
                 
 			vspd = lengthdir_y(spd,dir);

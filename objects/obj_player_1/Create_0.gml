@@ -63,16 +63,14 @@ window_set_cursor(cr_none)
             
              instance_create_layer(x,y,layer,obj_shot_gun)
         }
-        var _dir = point_direction(0,0,x,y)
-        
+       
         var _dir = point_direction(x,y,mouse_x,mouse_y)
-		var _x  = x 
-		var _y  = y + sprite_height/4
+		var _x  = x + lengthdir_x(sprite_width/2,_dir)
+		var _y  = y + lengthdir_y(sprite_height/2,_dir)
          
         obj_shot_gun.image_angle = _dir
-        obj_shot_gun.depth = depth-obj_shot_gun.sprite_width
-        obj_shot_gun.x = _x + hspd
-        obj_shot_gun.y = _y + vspd
+        obj_shot_gun.x = _x 
+        obj_shot_gun.y = _y
         
         if(_dir>=90 and _dir<= 270)  obj_shot_gun.image_yscale = -1
         else   obj_shot_gun.image_yscale = 1
