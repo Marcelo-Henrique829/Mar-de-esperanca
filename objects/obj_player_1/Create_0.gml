@@ -1,54 +1,91 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-image_xscale = 5
-image_yscale = 5
-
-state = "iddle";
+if(!instance_exists(Obj_control)) instance_create_layer(x,y,layer,Obj_control) /*se o objeto controle
+    não existir ao ser criado na room ele vai ser instanciado pelo player*/
 
 #region movimentação
 	hspd = 0;
 	vspd = 0;
 	spd = 0;
+	def_spd = 40;
+	
+	
+	
 	dir = 0;
 	dir_state = "none";
-	def_spd = 40;
 	last = vk_nokey;
-	inputs_bool = 1;
 	
 #endregion
+state = "iddle";
 
-#region dash state
-	dash_def_spd = 10;
-	dash_spd = 0;
+window_set_cursor(cr_none)
 
-	dashing_def_time = 17;
-	dashing_time = dashing_def_time;
+#region functions
+    switch_room = function()
+    {
+        var _target = instance_place(x,y,obj_room_switch)
+        if(_target!=noone)
+        {
+            room_goto(_target.target_room)
+            x = _target.target_x
+            y = _target.target_y
+        
+        }
+        
+    }
+    
+    rm_position = function()
 
-	dash_def_cooldown = 60;
-	dash_cooldown = 0;
+    {
+        switch(room)
+        {
+        	
+        	case rm_loja_entrada :
+        	{
+        		if(global.room_position.rm_loja_entrada.X!=false or global.room_position.rm_loja_entrada.Y!=false)
+        		{
+        			x = global.room_position.rm_loja_entrada.X 
+        			y = global.room_position.rm_loja_entrada.Y
+                    
+                    global.room_position.rm_loja_entrada.X = false
+                    global.room_position.rm_loja_entrada.Y = false
+        		}
+        		
+        	}
+        	break;
+        }
+    
+        
+    }
+
+    gun_hold = function()
+    {
+        if (!instance_exists(obj_shot_gun)) {
+            
+             instance_create_layer(x,y,layer,obj_shot_gun)
+        }
+        var _dir = point_direction(0,0,x,y)
+        
+        var _dir = point_direction(x,y,mouse_x,mouse_y)
+		var _x  = x 
+		var _y  = y + sprite_height/4
+         
+        obj_shot_gun.image_angle = _dir
+        obj_shot_gun.depth = depth-obj_shot_gun.sprite_width
+        obj_shot_gun.x = _x + hspd
+        obj_shot_gun.y = _y + vspd
+        
+        if(_dir>=90 and _dir<= 270)  obj_shot_gun.image_yscale = -1
+        else   obj_shot_gun.image_yscale = 1
+            
+        
+
+        
+        
+    } 
+
 #endregion
 
-#region run state
-	run_def_spd = def_spd * 2;
-	run_spd = spd;
-#endregion
-
-depth_layer = function()
-{
-	if(place_meeting(x,y-250,obj_wall))
-	{
-			depth = -999999 //UM VALOR ABSURDO PARA GARANTIR QUE VAI FICAR NA FRENTE
 
 
-	}
-	else
-	{
-			depth =  -y;
 
-	}
 
-	show_debug_message(depth)
-}
-
-global.tl_cercas = layer_tilemap_get_id("Tile_fence");

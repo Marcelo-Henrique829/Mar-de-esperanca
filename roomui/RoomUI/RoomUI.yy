@@ -6,7 +6,7 @@
         {"$GMRFlexPanel":"","%Name":"FlexPanel_2","alignItems":2,"alignSelf":1,"children":[
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_18205699","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_18205699","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_life_bar_2","path":"sprites/spr_life_bar_2/spr_life_bar_2.yy",},"x":0.0,"y":0.0,},
           ],"flexDirection":0,"height":{"unit":3,"value":1000.0,},"justifyContent":0,"name":"FlexPanel_2","nodeColour":4282954738,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":3000.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":0,"name":"UI","nodeColour":4293259848,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":0,"name":"UI","nodeColour":4293259848,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
     {"$GMRUILayer":"v1","%Name":"Pause_layer","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"pause_panel","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"Buttons","alignItems":2,"children":[
@@ -123,7 +123,7 @@
               ],"flexDirection":0,"height":{"unit":2,"value":90.0,},"justifyContent":0,"name":"potions","nodeColour":4294068434,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":80.0,},},
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_5E99FB23","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5E99FB23","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_ui_text_box","path":"sprites/spr_ui_text_box/spr_ui_text_box.yy",},"x":0.0,"y":0.0,},
           ],"flexDirection":0,"height":{"unit":2,"value":85.0,},"justifyContent":1,"marginLeft":{"unit":1,"value":100.0,},"name":"potion_layer","nodeColour":4282933234,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":15.62,},},
-      ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":1,"name":"shop_layer","nodeColour":4288737864,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":1,"name":"shop_layer","nodeColour":4288737864,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
   ],
   "locked":false,
   "name":"RoomUI",
@@ -134,5 +134,5 @@
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",
   "viewspaceChildren":[],
-  "visible":false,
+  "visible":true,
 }

@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-scr_colision([obj_wall,global.tl_cercas,obj_construct])
+scr_colision([obj_wall,global.tl_wall,obj_construct])
 scr_screen_shake()  
-scr_inputs(inputs_bool)
-depth_layer()
+scr_inputs(1)
+depth = -y
+
  
 
 
