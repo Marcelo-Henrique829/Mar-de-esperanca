@@ -4,7 +4,7 @@
 	
 	var _hspd = sign(hspd)
 	var _vspd = sign(vspd)
-	
+    
 	repeat(abs(hspd))
 	{
 		if(place_meeting(x+_hspd,y,_colisores))

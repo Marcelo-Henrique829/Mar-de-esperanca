@@ -3,11 +3,11 @@
 global.view_width = resolution_width / resolution_scale; // definindo o tamanho do width da camera
 global.view_height = resolution_height / resolution_scale; //definindo o tamanho do height da camera
 camera_set_view_size(view_camera[0],global.view_width, global.view_height); //aplicando o tamanho definido para a camera
-surface_resize(application_surface, global.view_width * resolution_scale,global.view_height * resolution_scale) //aplicando a resolução pra superficie do jogo
+surface_resize(application_surface, floor(global.view_width * resolution_scale),floor(global.view_height * resolution_scale)) //aplicando a resolução pra superficie do jogo
 
 
-	 	var x1 = x - global.view_width / 2; //variavel que vai seguir o x do jogador
-		var y1 = y - global.view_height / 2; //variavel que vai seguir o y do jogador
+	 	var x1 = x - floor(global.view_width / 2); //variavel que vai seguir o x do jogador
+		var y1 = y - floor(global.view_height / 2); //variavel que vai seguir o y do jogador
 		
 		x1 = clamp(x1, 0, room_width - global.view_width); //c lamp pra limitar o x da camera
 		y1 = clamp(y1, 0, room_height - global.view_height); //clamp pra limitar o y da camera
@@ -19,13 +19,3 @@ surface_resize(application_surface, global.view_width * resolution_scale,global.
 		
 
 resolution_scale = lerp(resolution_scale,resolution_def_scale,0.1)
-
-
-if(keyboard_check(vk_control))
-{
-    var _mouse_dir = point_direction(obj_player_1.x,obj_player_1.y
-    ,mouse_x,mouse_y)
-    
-    x = lengthdir_x(100,_mouse_dir)
-    y = lengthdir_y(100,_mouse_dir)
-}

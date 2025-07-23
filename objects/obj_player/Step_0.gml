@@ -29,8 +29,16 @@ switch(state)
  		case "iddle" :
 		{
 			scr_direction();
-			scr_anim_direction();
-		
+			scr_anim_4_direction(
+             
+            spr_nalu_back_iddle, spr_nalu_back_run,
+            spr_nalu_front_iddle, spr_nalu_front_run,
+            spr_nalu_left_iddle, spr_nalu_left_run,
+            spr_nalu_right_iddle, spr_nalu_right_run
+            
+            )
+            
+            
 			vspd = lengthdir_y(spd,dir);
 			hspd = lengthdir_x(spd,dir);
             
@@ -40,10 +48,43 @@ switch(state)
                 
             }
             
+            if(_i.aim)
+            {
+                state = "aim"
+            }
+            
 		
 		
 		}
 		break;
+    
+        case  "aim":
+        {
+            
+            scr_anim_4_direction(
+             
+            spr_nalu_back_iddle, spr_nalu_back_run,
+            spr_nalu_front_iddle, spr_nalu_front_run,
+            spr_nalu_left_iddle, spr_nalu_left_run,
+            spr_nalu_right_iddle, spr_nalu_right_run
+            
+            )
+            hspd = 0 
+            vspd = 0
+            gun_hold()
+            dir = gun.image_angle
+            
+            if(!_i.aim)
+            {
+                gun.state = "destroy"
+                gun.image_index = 0
+                state = "iddle"
+                
+            }
+            
+        }
+        break;
+    
     
         case  "stop":
         {
@@ -61,12 +102,12 @@ switch(state)
         break;
 
 
+
+
+
 }
-
-
 switch_room()
 rm_position()
-
 global.tl_wall = layer_tilemap_get_id("Tile_wall");
 global.tl_objects = layer_tilemap_get_id("Tile_objects");
 

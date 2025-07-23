@@ -6,6 +6,7 @@ if(!instance_exists(Obj_control)) instance_create_layer(x,y,layer,Obj_control)
 	spd = 0;
 	def_spd = 40;
 	
+
 	
 	
 	dir = 0;
@@ -14,7 +15,9 @@ if(!instance_exists(Obj_control)) instance_create_layer(x,y,layer,Obj_control)
 	
 #endregion
 state = "iddle";
-
+gu_side = 1
+dir_test = 0
+gun = obj_hand_gun
 
 #region functions
     switch_room = function()
@@ -69,5 +72,31 @@ state = "iddle";
         x = clamp(x,0,room_width-sprite_width)
         y = clamp(y,0,room_height-sprite_height)
     }
+
+    gun_hold = function()
+        {
+            
+            if(!layer_exists("guns")) layer_create(-100,"guns")
+
+            if (!instance_exists(gun)) {
+                
+                 instance_create_layer(x,y,"guns",gun)
+                gun.image_index = 0
+            }
+             
+            
+            var _dir = point_direction(x,y,mouse_x,mouse_y)
+    		var _x  = x + lengthdir_x(sprite_width/2,_dir)
+    		var _y  = y + lengthdir_y(sprite_height/2,_dir)
+             
+            gun.image_angle = _dir
+          
+            gun.y = _y + vspd
+            gun.x = _x + hspd
+            
+            if(_dir>=90 and _dir<= 270) gun.def_scale_y = -1
+            else gun.def_scale_y = 1
+
+        } 
 #endregion
 

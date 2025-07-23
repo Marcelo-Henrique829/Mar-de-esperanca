@@ -15,7 +15,6 @@ shoot = function ()
     {
         if (_i.attack) 
         {
-            
             global.shake = 10
                 var _bullet = instance_create_layer(x,y,"bullet",obj_bullet)
                 _bullet.direction = image_angle-10
