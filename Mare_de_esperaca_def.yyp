@@ -271,8 +271,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
     {"roomId":{"name":"rm_C_1","path":"rooms/rm_C_1/rm_C_1.yy",},},
+    {"roomId":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_A_1","path":"rooms/rm_A_1/rm_A_1.yy",},},
     {"roomId":{"name":"rm_loja_menu","path":"rooms/rm_loja_menu/rm_loja_menu.yy",},},
