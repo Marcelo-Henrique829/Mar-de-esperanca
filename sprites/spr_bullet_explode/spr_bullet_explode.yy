@@ -59,7 +59,7 @@
   "origin":4,
   "parent":{
     "name":"weapon",
-    "path":"folders/Sprites/Place_holder/character_2/weapon.yy",
+    "path":"folders/Sprites/Place_holder/weapon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

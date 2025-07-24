@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_mesa",
-    "path":"sprites/spr_mesa/spr_mesa.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
