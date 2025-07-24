@@ -51,16 +51,9 @@ function scr_fade_out()
 	global.pause = 0;
 	global.transition = sq_fade_out
 	
-	if(!instance_exists(obj_player))
-	{
-		var _cm_x = camera_get_view_x(view_camera[0]) + camera_get_view_x(view_camera[0])/2
-		var _cm_y = camera_get_view_y(view_camera[0])
-	}
-	else
-	{
-		var _cm_x = obj_player.x
-		var _cm_y = obj_player.y
-	}
+	var cam = view_camera[0];
+    var center_x = camera_get_view_x(cam) + camera_get_view_width(cam) / 2;
+    var center_y = camera_get_view_y(cam) + camera_get_view_height(cam) / 2;
 	
 	if(!layer_exists("inst_transition"))
 	{
@@ -68,7 +61,7 @@ function scr_fade_out()
 	}
 	
 	
-	layer_sequence_create("inst_transition",_cm_x,_cm_y,sq_fade_out)
+	layer_sequence_create("inst_transition",center_x,center_y,sq_fade_out)
 
 }
 

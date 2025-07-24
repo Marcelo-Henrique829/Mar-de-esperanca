@@ -11,3 +11,4 @@ vel_cam = 0.2 //velocidade na qual a camera segue o personagem(só pra ficar bon
 
 surface_resize(application_surface, floor( global.view_width * resolution_scale),floor(global.view_height * resolution_scale)) //aplicando a resolução pra superficie do jogo
 
+show_debug_overlay(1)
