@@ -10,14 +10,7 @@
     
 #endregion
 
-   if(instance_exists(Obj_camera))
-    {
-    
-            var _camera = Obj_camera
-            _camera.x = x
-            _camera.y = y
-        
-    }
+
 
 
 switch(state)
@@ -86,35 +79,9 @@ switch(state)
                 
             }
             
-            
-            
-            if(_i.run)
-            {
-                if(instance_exists(Obj_camera)){
-                    
-                    
-                    
-                    var cam = view_camera[0];
-                    var center_x = camera_get_view_x(cam) + camera_get_view_width(cam) / 2;
-                    var center_y = camera_get_view_y(cam) + camera_get_view_height(cam) / 2;
-                    
-                    
-                    var _dir = point_direction(x,y,mouse_x,mouse_y)
-                    var _camera = Obj_camera
-                    
-                    var _x = lengthdir_x(900,_dir) 
-                    var _y = lengthdir_y(800,_dir)
-                    
-                    
-                    _camera.x += _x
-                    _camera.y += _y
-                   
-                
-                }
-            }
         }
+            
         break;
-    
     
         case  "stop":
         {
@@ -139,6 +106,6 @@ switch(state)
 switch_room()
 rm_position()
 global.tl_wall = layer_tilemap_get_id("Tile_wall");
-global.tl_objects = layer_tilemap_get_id("Tile_objects");
+
 
  

@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_313C0327_2_2","path":"rooms/rm_C_2/rm_C_2.yy",},
     {"name":"inst_63FABB50","path":"rooms/rm_C_2/rm_C_2.yy",},
     {"name":"inst_2F270500","path":"rooms/rm_C_2/rm_C_2.yy",},
     {"name":"inst_23858E12","path":"rooms/rm_C_2/rm_C_2.yy",},
@@ -15,7 +14,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_313C0327_2_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_313C0327_2_2","objectId":{"name":"Obj_camera","path":"objects/Obj_camera/Obj_camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4128.0,"y":2176.0,},
         {"$GMRInstance":"v2","%Name":"inst_63FABB50","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63FABB50","objectId":{"name":"obj_room_switch","path":"objects/obj_room_switch/obj_room_switch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":2.0,"scaleY":12.5,"x":64.0,"y":4112.0,},
         {"$GMRInstance":"v2","%Name":"inst_2F270500","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F270500","objectId":{"name":"obj_room_switch","path":"objects/obj_room_switch/obj_room_switch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":2.0,"scaleY":12.5,"x":64.0,"y":784.0,},
         {"$GMRInstance":"v2","%Name":"inst_23858E12","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23858E12","objectId":{"name":"obj_room_switch","path":"objects/obj_room_switch/obj_room_switch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":270.0,"scaleX":4.0,"scaleY":13.0,"x":2048.0,"y":6784.0,},
